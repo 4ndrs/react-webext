@@ -4,7 +4,9 @@ import { H1 } from "../styled";
 const Display = () => {
   const { counter } = useCounter();
 
-  return <H1>{counter}</H1>;
+  return (
+    <>{counter ? <H1>{counter}</H1> : <img src="images/1487017704284.png" />}</>
+  );
 };
 
 export default Display;
