@@ -2,6 +2,7 @@
   "name": "react-webext",
   "version": "1.0.0",
   "manifest_version": 2,
+  "permissions": ["storage"],
   "browser_action": {
     "default_title": "React WebExt",
     "default_popup": "popup/index.html"
